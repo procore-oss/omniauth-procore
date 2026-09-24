@@ -10,6 +10,6 @@ jobs:
   assign:
     runs-on: ubuntu-latest
     steps:
-      - uses: toshimaru/auto-author-assign@7709f4bd34c4e32c689572005775ae6834ae4a1a # (latest, untagged)
+      - uses: toshimaru/auto-author-assign@6777e6c2a2e817abbc19dabe9e1b749e01536a72 # (latest, untagged)
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
